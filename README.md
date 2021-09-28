@@ -44,6 +44,10 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npx mikro-orm migration:create
   ```
+- install express
+  ```sh
+  yarn add -D @types/express
+  ```
 
 ### Installation
 
@@ -51,6 +55,12 @@ This is an example of how to list things you need to use the software and how to
 
 ```sh
  yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg
+```
+
+2. Setup Graphql
+
+```sh
+ yarn add express apollo-server-express graphql type-graphql
 ```
 
 <!-- 2. Enter your TOKEN in `.env`
