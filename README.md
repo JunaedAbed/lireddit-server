@@ -36,6 +36,14 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   yarn dev
   ```
+- now start postgresql
+  ```sh
+  brew services start postgresql
+  ```
+- now create migration
+  ```sh
+  npx mikro-orm migration:create
+  ```
 
 ### Installation
 
